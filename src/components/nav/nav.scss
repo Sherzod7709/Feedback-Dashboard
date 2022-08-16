@@ -1,0 +1,40 @@
+@import "../../assets/scss/variables.scss";
+.nav {
+    width: 825px;
+    height: 72px;
+    background-color: #373F68;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+    border-radius: $radius;
+}
+.site-title {
+    display: flex;
+    align-items: center;
+    color: #FFFF;
+    gap: 10px;
+}
+.section-form {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.nav__left-page {
+    align-items: center;
+    gap: 30px;
+    display: flex;
+}
+.nav-section {
+    color: #FFFF;
+    background-color: #373F68;
+    border: none;
+}
+
+.label-form {
+    color: #FFFF;
+}
+.nav-section__value {
+    color:  #647196;
+    background-color: #FFFFFF;
+}

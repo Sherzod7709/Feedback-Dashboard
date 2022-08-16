@@ -1,0 +1,12 @@
+.gap-page {
+    max-width: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:8% auto;
+}
+.gap-page__text {
+    width: 410px;
+}

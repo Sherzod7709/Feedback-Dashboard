@@ -1,0 +1,10 @@
+.app__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.page__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}

@@ -1,0 +1,8 @@
+@import "../../assets/scss/variables.scss";
+.type-badge {
+    display: inline-block;
+    padding: 5px 16px;
+    color: $blue;
+    background-color: #F2F4FF;
+    border-radius: $radius;
+}

@@ -1,0 +1,17 @@
+.home {
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+.box {
+    width: 255px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(91, 237, 188);
+    height: 166px;
+}

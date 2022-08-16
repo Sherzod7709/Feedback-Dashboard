@@ -1,0 +1,78 @@
+@import "../../assets/scss/variables.scss";
+.add-card__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-card-list {
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 745px;
+    border-radius: $radius;
+}
+.add-card {
+    width: 540px;
+    height: 657px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #FFFF;
+    border-radius: $radius;
+    padding: 40px;
+}
+.add-card-head {
+    width: 456px;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+}
+.add-card-main {
+    width: 456px;
+    height: 106px;
+    display: flex;
+    flex-direction: column;
+}
+.add-card-bottom {
+    width: 456px;
+    height: 154px;
+}
+.add-card-img {
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: -66px;
+}
+.add-card__title {
+    font-size: 26px;
+    line-height: 32px;
+}
+.add-card__page-title {
+    margin: 0;
+    line-height: 26px;
+}
+.add-card__page-text {
+    margin: 0;
+    line-height: 28px;
+    font-size: 14px;
+}
+.add-card__input,.add-card__option{
+    width: 456px;
+    height: 48px;
+    background: #F7F8FD;
+    border: 0px;
+}
+
+.add-card__info {
+    width: 456px;
+    height: 96px;
+    background-color: #F7F8FD;
+    border: 0;
+}
+.button {
+    margin-top: 32px;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,26 @@
+@import "../../assets/scss/variables.scss";
+.add-coment-form {
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px 34px;
+    background-color: #FFFFFF;
+    border-radius: $radius;
+}
+.add-textarea {
+    height: 80px;
+    border: 0;
+    background-color: #F7F8FD;
+    //@at-root: center;
+    padding: 10px;
+}
+.add-label {
+    font-size: 18px;
+    font-weight: 700;
+    color: $title-color;
+}
+.add-coment__bottom {
+    display: flex;
+    justify-content: space-between;
+}

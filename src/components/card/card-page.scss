@@ -1,0 +1,51 @@
+@import "../../assets/scss/variables.scss";
+.card-page {
+    height: 151px;
+    background-color: #FFFF;
+    display: flex;
+    border-radius: $radius;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.card-page__left {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.card-page__left-num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 12px;
+    background-color:#F2F4FE;
+    border-radius: $radius;
+    row-gap: 9px;
+}
+.card-page__comment{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-gap {
+    width: 825px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #F2F4FE;
+    border-radius: $radius;
+}
+.card-gap__list {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card-gap__text {
+    width: 410px;
+    line-height: 30px;
+    text-align: center;
+}

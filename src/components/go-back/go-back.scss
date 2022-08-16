@@ -1,0 +1,8 @@
+@import "../../assets/scss/variables.scss";
+.go-back {
+    display: flex;
+    gap: 15px;
+    padding: 5px 10px;
+    font-weight: 500;
+    color: $title-color;
+}

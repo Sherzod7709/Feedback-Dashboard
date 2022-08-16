@@ -1,0 +1,16 @@
+@import "../../assets/scss/variables.scss";
+.filter-type {
+    width: 255px;
+    height: 166px;
+    border-radius: 10px;
+    background-color: #FFF;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 24px;
+    gap: 14px 8px;
+}
+.type-filter__radio:checked ~ .type-filter__styled-radio {
+    background-color: $blue;
+    color: #FFF;
+}
