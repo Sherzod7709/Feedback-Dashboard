@@ -4,11 +4,8 @@ import Roadmap from "../../components/roadmap/roadmap";
 import Container from "../../components/container/container";
 import Page from "../page2/page";
 import "./home.scss";
-// import { useContext } from 'react'
-// import {CardContex} from "../../App"
 
 const Home = () => {
-  //const {feedbacks} = useContext(CardContex)
   return (
     <div className="home">
       <Container className="home__container">
