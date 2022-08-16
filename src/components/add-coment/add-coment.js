@@ -1,4 +1,4 @@
-import { useContext, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 import { CardContex } from "../../App";
 import MainBtn from "../main-btn/main-btn";
@@ -46,13 +46,13 @@ const AddComment = () => {
       setTextValue(evt.target.value);
     }
   };
-    // useEffect(() => {
-    //   if (leftCount === 0) {
-    //     setMassage("Boshqa so'z kirita olmaysiz!");
-    //   } else {
-    //     setMassage("...");
-    //   }
-    // }, [textValue]);
+  useEffect(() => {
+    if (leftCount === 0) {
+      setMassage("Boshqa so'z kirita olmaysiz!");
+    } else {
+      setMassage("...");
+    }
+  }, [textValue]);
   return (
     <form onSubmit={handleFormAddComment} className="add-coment-form">
       <label className="add-label" htmlFor="addComment">
