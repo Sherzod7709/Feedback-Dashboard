@@ -37,6 +37,7 @@ const AddComment = () => {
         ...feedbacks.slice(feedbackIndex + 1),
       ]);
     }
+    textareaValue.current.value = "";
   };
   const leftCount = +(maxCount - textValue.length);
   const handleTextChange = (evt) => {
@@ -52,7 +53,7 @@ const AddComment = () => {
     } else {
       setMassage("...");
     }
-  }, [textValue]);
+  }, [leftCount]);
   return (
     <form onSubmit={handleFormAddComment} className="add-coment-form">
       <label className="add-label" htmlFor="addComment">
