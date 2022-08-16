@@ -8,7 +8,7 @@ const maxCount = 20;
 const AddComment = () => {
   const { feedbacks, setFeedbacks } = useContext(CardContex);
   const { id } = useParams();
-  const [massage] = useState("");
+  const [massage, setMassage] = useState("");
   const [textValue, setTextValue] = useState("");
   const textareaValue = useRef();
   const currnetFeedback = feedbacks.find((todo) => todo.id === +id);
